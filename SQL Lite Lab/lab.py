@@ -1,3 +1,6 @@
+# Wesley Lewis wjl4jj
+# BASED ON https://towardsdatascience.com/python-sqlite-tutorial-the-ultimate-guide-fdcb8d7a4f30
+# https://github.com/Wesleylewis05/DS2002
 import sqlite3
 import pandas as pd
 conn = sqlite3.connect('orders.db')
