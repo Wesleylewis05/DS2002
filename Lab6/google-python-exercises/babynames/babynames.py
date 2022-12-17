@@ -40,7 +40,7 @@ def extract_names(filename):
   followed by the name-rank strings in alphabetical order.
   ['2006', 'Aaliyah 91', Aaron 57', 'Abagail 895', ' ...]
   """
-  data = []
+ 
   # Open and read the file.
   f = open(filename, 'r')
   text = f.read()
@@ -56,6 +56,7 @@ def extract_names(filename):
     sys.exit()
   year = found.group(1) # .group() would return ('1990',)
   # returns the year
+  data = []
   data.append(year)
   #print(f'Year: {year}')
 
